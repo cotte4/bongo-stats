@@ -100,7 +100,7 @@ export function MVPSelector({
               </div>
             </div>
             <div className="text-right">
-              <div className="text-2xl font-bold text-yellow-400">{currentMVP.rating}</div>
+              <div className="text-2xl font-bold text-yellow-400">{currentMVP?.rating ?? 0}</div>
               <div className="text-xs text-slate-400">Rating</div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-import type { Player, Match, PlayerStats, MatchRating, MVPRecord } from '../types';
+import type { Match, PlayerStats, MatchRating, MVPRecord } from '../types';
 import { EMPTY_STATS } from '../types';
 
 /**

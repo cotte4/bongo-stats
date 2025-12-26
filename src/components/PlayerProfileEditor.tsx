@@ -1,7 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import type { Player, FIFAStats } from '../types';
 import { fileToBase64, validateImageFile } from '../utils/imageUtils';
-import { DEFAULT_FIFA_STATS } from '../types';
 
 interface PlayerProfileEditorProps {
   player: Player;

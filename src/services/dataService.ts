@@ -1,6 +1,5 @@
 import { supabase } from '../lib/supabase';
-import type { Player, Match, MatchRating, MVPRecord, FIFAStats, PlayerMatchStats, MatchEvent } from '../types';
-import { DEFAULT_FIFA_STATS } from '../types';
+import type { Player, Match, MatchRating, MVPRecord, PlayerMatchStats, MatchEvent } from '../types';
 
 // Database row types (snake_case from Supabase)
 interface PlayerRow {

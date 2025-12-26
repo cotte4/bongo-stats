@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { fileToBase64, validateImageFile, getDefaultFieldImage } from '../utils/imageUtils';
+import { fileToBase64, validateImageFile } from '../utils/imageUtils';
 
 interface NewMatchModalProps {
   isOpen: boolean;
